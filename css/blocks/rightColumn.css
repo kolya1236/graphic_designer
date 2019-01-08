@@ -1,0 +1,37 @@
+.rightRow h4 {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .rightRow h4 span {
+    font-weight: 700;
+    color: #3d6cb0; }
+
+.rightRow p {
+  font-family: "MyriadPro";
+  font-size: 0.9375rem;
+  font-weight: 400;
+  list-style-type: none; }
+
+.rightRow .experience {
+  margin-top: 3.125rem; }
+  .rightRow .experience span {
+    font-weight: 700;
+    color: #000; }
+  .rightRow .experience li:first-child {
+    margin-top: 3.125rem; }
+
+.rightRow .software {
+  margin-top: 3.125rem; }
+  .rightRow .software .softLine {
+    margin-top: 1.875rem; }
+    .rightRow .software .softLine img {
+      width: 17.375rem; }
+  .rightRow .software .softwareData {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .rightRow .software .title {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    text-transform: uppercase; }

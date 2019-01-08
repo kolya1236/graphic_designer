@@ -1,0 +1,61 @@
+.leftRow .logoblock {
+  text-align: center;
+  margin-bottom: 6.25rem; }
+  .leftRow .logoblock h2 {
+    font-family: "MyriadProLight", sans-serif;
+    font-size: 3.25rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .leftRow .logoblock h2 div {
+      margin-top: 1.25rem; }
+    .leftRow .logoblock h2 .bold {
+      margin-top: -0.3rem;
+      font-size: 3.25rem;
+      font-family: "MyriadPro", sans-serif; }
+    .leftRow .logoblock h2 .small {
+      margin-top: 0.625rem;
+      font-size: 1.5625rem; }
+  .leftRow .logoblock img {
+    width: 14.5625rem; }
+
+.profile {
+  font-size: 0.9375rem;
+  font-family: "MyriadPro";
+  font-weight: 400; }
+  .profile p {
+    margin-top: 0.9375rem; }
+
+.contact {
+  margin-top: 2.8125rem; }
+  .contact .dataRow {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap; }
+  .contact .title {
+    width: 9.375rem;
+    color: #3d6cb0;
+    font-family: "MyriadPro";
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .contact .data {
+    font-family: "MyriadPro";
+    font-size: 1.25rem;
+    font-weight: 400; }
+
+.contact:last-child {
+  margin-bottom: 1.25rem; }
+
+.skills {
+  margin-top: 2.8125rem;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+  .skills .title {
+    margin-top: 1.5625rem;
+    font-family: "MyriadPro";
+    font-size: 1.5625rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .skills .skillsData img {
+    width: 20.125rem;
+    margin-top: 0.3rem; }

@@ -1,0 +1,61 @@
+html {
+  font-family: MyriadPro, sans-serif; }
+
+.container {
+  margin-left: 6.25rem;
+  margin-right: 5rem;
+  margin-top: 4,375rem;
+  display: flex; }
+
+.leftRow {
+  width: 25.75rem;
+  margin-right: 5.3125rem; }
+
+.rightRow {
+  width: 40.625rem;
+  margin-left: 5.3125rem; }
+
+.block {
+  display: flex;
+  flex-wrap: wrap; }
+  .block .nowrap {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden; }
+  .block h3 {
+    color: #3d6cb0;
+    font-family: "Myriad Pro";
+    margin-left: 0.3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .block h3:after {
+    display: inline-block;
+    content: "";
+    position: relative;
+    margin-left: 0.3rem;
+    margin-bottom: 0.75rem;
+    width: 71.875rem;
+    height: 0.3rem;
+    background-color: #3d6cb0; }
+
+.blockImg {
+  width: 4.6875rem; }
+
+.bold {
+  font-weight: 700; }
+
+ul {
+  width: 100%;
+  list-style-type: none; }
+  ul li {
+    margin-left: 2.8125rem;
+    margin-top: 1.5625rem;
+    position: relative; }
+  ul li::before {
+    left: -2.1875rem;
+    top: -2.1875rem;
+    position: absolute;
+    content: '\2022';
+    font-size: 5.125rem; }

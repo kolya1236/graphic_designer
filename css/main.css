@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: MyriadPro;
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.ttf");
+  font-weight: 400; }
+
+@font-face {
+  font-family: MyriadPro;
+  src: url(../fonts/MyriadPro/MyriadPro-bold.ttf);
+  font-weight: 700; }
+
+@font-face {
+  font-family: MyriadProLight;
+  src: url(../fonts/MyriadPro/MyriadPro-Light.ttf);
+  font-weight: 700; }
+
+html {
+  font-family: MyriadPro, sans-serif; }
+
+.container {
+  margin-left: 6.25rem;
+  margin-right: 5rem;
+  margin-top: 4,375rem;
+  display: flex; }
+
+.leftRow {
+  width: 25.75rem;
+  margin-right: 5.3125rem; }
+
+.rightRow {
+  width: 40.625rem;
+  margin-left: 5.3125rem; }
+
+.block {
+  display: flex;
+  flex-wrap: wrap; }
+  .block .nowrap {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden; }
+  .block h3 {
+    color: #3d6cb0;
+    font-family: "Myriad Pro";
+    margin-left: 0.3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .block h3:after {
+    display: inline-block;
+    content: "";
+    position: relative;
+    margin-left: 0.3rem;
+    margin-bottom: 0.75rem;
+    width: 71.875rem;
+    height: 0.3rem;
+    background-color: #3d6cb0; }
+
+.blockImg {
+  width: 4.6875rem; }
+
+.bold {
+  font-weight: 700; }
+
+ul {
+  width: 100%;
+  list-style-type: none; }
+  ul li {
+    margin-left: 2.8125rem;
+    margin-top: 1.5625rem;
+    position: relative; }
+  ul li::before {
+    left: -2.1875rem;
+    top: -2.1875rem;
+    position: absolute;
+    content: '\2022';
+    font-size: 5.125rem; }
+
+@media (max-width: 3000px) {
+  html {
+    font-size: 20px; } }
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 16px; } }
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 14px; } }
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 12px; } }
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 9px; } }
+
+@media (max-width: 800px) {
+  html {
+    font-size: 8px; } }
+
+@media (max-width: 700px) {
+  html {
+    font-size: 7px; } }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 6px; } }
+
+@media (max-width: 500px) {
+  html {
+    font-size: 5px; } }
+
+@media (max-width: 400px) {
+  html {
+    font-size: 4px; } }
+
+@media (max-width: 350px) {
+  html {
+    font-size: 3.5px; } }
+
+.leftRow .logoblock {
+  text-align: center;
+  margin-bottom: 6.25rem; }
+  .leftRow .logoblock h2 {
+    font-family: "MyriadProLight", sans-serif;
+    font-size: 3.25rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .leftRow .logoblock h2 div {
+      margin-top: 1.25rem; }
+    .leftRow .logoblock h2 .bold {
+      margin-top: -0.3rem;
+      font-size: 3.25rem;
+      font-family: "MyriadPro", sans-serif; }
+    .leftRow .logoblock h2 .small {
+      margin-top: 0.625rem;
+      font-size: 1.5625rem; }
+  .leftRow .logoblock img {
+    width: 14.5625rem; }
+
+.profile {
+  font-size: 0.9375rem;
+  font-family: "MyriadPro";
+  font-weight: 400; }
+  .profile p {
+    margin-top: 0.9375rem; }
+
+.contact {
+  margin-top: 2.8125rem; }
+  .contact .dataRow {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap; }
+  .contact .title {
+    width: 9.375rem;
+    color: #3d6cb0;
+    font-family: "MyriadPro";
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .contact .data {
+    font-family: "MyriadPro";
+    font-size: 1.25rem;
+    font-weight: 400; }
+
+.contact:last-child {
+  margin-bottom: 1.25rem; }
+
+.skills {
+  margin-top: 2.8125rem;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+  .skills .title {
+    margin-top: 1.5625rem;
+    font-family: "MyriadPro";
+    font-size: 1.5625rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .skills .skillsData img {
+    width: 20.125rem;
+    margin-top: 0.3rem; }
+
+.rightRow h4 {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .rightRow h4 span {
+    font-weight: 700;
+    color: #3d6cb0; }
+
+.rightRow p {
+  font-family: "MyriadPro";
+  font-size: 0.9375rem;
+  font-weight: 400;
+  list-style-type: none; }
+
+.rightRow .experience {
+  margin-top: 3.125rem; }
+  .rightRow .experience span {
+    font-weight: 700;
+    color: #000; }
+  .rightRow .experience li:first-child {
+    margin-top: 3.125rem; }
+
+.rightRow .software {
+  margin-top: 3.125rem; }
+  .rightRow .software .softLine {
+    margin-top: 1.875rem; }
+    .rightRow .software .softLine img {
+      width: 17.375rem; }
+  .rightRow .software .softwareData {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .rightRow .software .title {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    text-transform: uppercase; }
